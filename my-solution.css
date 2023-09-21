@@ -56,6 +56,26 @@
 .ex-8-img:hover{
     cursor: pointer;
     border-radius: 25px;
-    filter: brightness(0.5) saturate(4);
+    filter: brightness(1) saturate(2);
     transition: 4s;
 }
+
+/* ESERCIZIO 9 */
+.ex-9-img:hover{
+    cursor: pointer;
+    border-radius: 25px;
+    filter: sepia(2) saturate(1);
+    transition: 4s;
+    transform: scale(1.5);
+}
+
+/* ESERCIZIO 10 */
+.ex-10-icon{
+    animation: circle 2s linear infinite;
+}
+@keyframes circle{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
